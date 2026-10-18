@@ -1,0 +1,25 @@
+# Private credentials
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# React
+node_modules/
+dist/
+
+# Private assignment transcripts
+transcripts/
+cold-call-transcripts*.zip
+*.zip
+
+# Miscellaneous
+.DS_Store
+
+data/transcript_analysis_reviewed.csv
